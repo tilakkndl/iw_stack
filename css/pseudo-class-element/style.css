@@ -1,0 +1,48 @@
+a:link{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: green;
+    color: yellow;
+}
+
+a:active{
+    background-color: red;
+    color: aqua;
+}
+
+a:visited{
+    background-color: yellow;
+    color: pink;
+}
+
+
+ul>li:first-child{
+    color: red;
+}
+
+ul>li:last-child{
+    color: green;
+}
+
+ul>li:nth-child(odd){
+    color: yellow
+}
+
+
+p::first-letter{
+    font-size: 44px;
+    font-weight: bold;
+}
+
+p::first-line{
+    background-color: red;
+}
+
+p::after{
+    content: '  see more...';
+    color: green
+}
