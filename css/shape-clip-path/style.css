@@ -1,0 +1,37 @@
+.traingle{
+    /* for traingle */
+    /* border-left: 50px solid red;
+    border-right: 50px solid blue;
+    border-bottom: 100px solid green;
+    width: 0;
+    height: 0; */
+    /* clip-path: circle(20%); */
+    /* clip-path: ellipse(30% 50% at 30% 50%); */
+    clip-path: polygon(50% 0, 0% 100%, 100% 100%);
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+
+.sshape{
+    /* this is used for creating the shape by ourself and floating left  */
+    padding: 25px;
+    background-color: red;
+    border: 5px solid blue;
+    border-radius: 50%;
+    float: left;
+    margin: 10px;
+    shape-outside: margin-box;
+}
+
+.shape{
+    float: left;
+    shape-outside: url(https://mdn.github.io/css-examples/shapes/images/star-shape1.png);
+    shape-margin: 1px;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}

@@ -1,0 +1,9 @@
+body{
+    /* background-image: radial-gradient(red 5%, green 5%, blue); */
+    /* background-image: linear-gradient(to left, red, green); */
+    background-image: linear-gradient(rgba(0,0,255, 0.1), rgba(255, 0,0,0.1)), url(https://images.unsplash.com/photo-1561212856-44e9bae482aa?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FuZGxlJTIwbGlnaHR8ZW58MHx8MHx8fDA%3D),url(https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size:cover, 10%, cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed, scroll;
+    background-position:left,right top, left;
+}
